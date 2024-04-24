@@ -8,7 +8,7 @@
 ```php
 <?php
 // LDAP connection settings
-$ldap_server = "ldaps://ldap-test.berkeley.edu:636";
+$ldap_server = "ldaps://ldap.berkeley.edu:636";
 $ldap_bind_user = "uid=ldap_bind,ou=applications,dc=berkeley,dc=edu";
 $ldap_bind_password = "*******";
 
