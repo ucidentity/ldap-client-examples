@@ -17,7 +17,7 @@ def get_connection():
     return c
 
 def paged_search(c, filter):
-    entries = c.extend.standard.paged_search(BASE, filter, attributes=['uid', 'givenName'], paged_size=99)
+    entries = c.extend.standard.paged_search(BASE, filter, attributes=['uid', 'givenName'], paged_size=999)
     return entries
 
 def main():
