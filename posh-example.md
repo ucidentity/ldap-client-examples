@@ -65,5 +65,5 @@ try {
 ```
 
 2. Run the script as `.\ldapSearch.ps1 -uid 888236`
-3. You will be prompted for the uid to search for and your credentials.  The credentials should be your LDAP bind (e.g. uid=my-ldap-service,ou=applications...)
+3. You will be prompted for your credentials.  The credentials should be your LDAP bind and password (e.g. uid=my-ldap-service,ou=applications...)
 4. Edit as necessary.
