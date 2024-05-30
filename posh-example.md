@@ -18,7 +18,7 @@ $ldapServer = "ldap.berkeley.edu"
 $ldapPort = 636
 
 # Define the base DN and filter
-$baseDN = "dc=berkeley,dc=edu"
+$baseDN = "ou=people,dc=berkeley,dc=edu"
 $filter = "(&(objectClass=person)(uid=$uid))"
 
 # Create an LDAP connection
