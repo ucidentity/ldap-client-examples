@@ -24,7 +24,7 @@ $filter = "(&(objectClass=person)(uid=$uid))"
 # Create an LDAP connection
 $ldapConnection = New-Object System.DirectoryServices.Protocols.LdapConnection((new-object System.DirectoryServices.Protocols.LdapDirectoryIdentifier($ldapServer, $ldapPort)), $cred) 
 $LdapConnection.AuthType = [System.DirectoryServices.Protocols.AuthType]'Basic'
-$ldapConnection.SessionOptions.SecureSocketLayer = $truea
+$ldapConnection.SessionOptions.SecureSocketLayer = $true
 $ldapConnection.SessionOptions.VerifyServerCertificate = { $true }
 
 # Define the search scope and attributes to load
