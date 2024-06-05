@@ -1,6 +1,6 @@
 **Requirements:**
 
-- This example connects to LDAP securely using LDAPS.  Please ensure your `php.ini` `openssl.cafile` directive points to a valid and trusted certificate store
+- This example connects to LDAP securely using LDAPS.  Please ensure your `php.ini` `openssl.cafile` directive points to a valid and trusted CA certificate store
 - Ensure that you have the PHP LDAP extension installed and configured on your server
 - Note that the example below uses paged controls to handle pagination in LDAP queries. The control's oid for paged results is 1.2.840.113556.1.4.319.
 - The paged search uses a "cookie" to manage state across pages. This cookie is updated with each iteration to indicate the next page to retrieve.
